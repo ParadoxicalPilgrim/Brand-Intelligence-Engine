@@ -1,8 +1,10 @@
 # Brand Intelligence Engine
 
+**Live Application:** [brand-intelligence-engine-4216.streamlit.app](https://brand-intelligence-engine-4216.streamlit.app/)
+
 A multi-agent AI pipeline that transforms a raw, unstructured startup idea into a coherent, useful, and launch-ready brand system. Built as a sophisticated intelligence workflow, this engine avoids the "one-prompt trap" by utilizing specialized AI agents for discovery, strategy, critique, design brief generation, and execution planning.
 
-### 🛠️ Tech Stack & Technologies Used
+### Tech Stack & Technologies Used
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
@@ -12,7 +14,7 @@ A multi-agent AI pipeline that transforms a raw, unstructured startup idea into 
 
 ---
 
-### 🚀 Core Workflow & Architecture
+### Core Workflow & Architecture
 
 The system operates on a deliberate, multi-stage architecture where each AI agent passes structured JSON data to the next:
 
@@ -25,16 +27,17 @@ The system operates on a deliberate, multi-stage architecture where each AI agen
 
 ---
 
-### 💡 Key Features
-- **Accident-Proof UI:** Engineered with Streamlit forms and text-areas to prevent accidental submissions via Enter keys.
-- **Robust JSON Parsing:** Custom parser that sanitizes and extracts AI outputs even if the model injects markdown ticks.
-- **Context Preservation:** Later stages build entirely on the decisions of previous stages rather than restarting from zero.
+### Key Features
+
+*   **Accident-Proof UI:** Engineered with Streamlit forms and text-areas to prevent accidental submissions via Enter keys.
+*   **Robust JSON Parsing:** Custom parser that sanitizes and extracts AI outputs even if the model injects markdown ticks.
+*   **Context Preservation:** Later stages build entirely on the decisions of previous stages rather than restarting from zero.
 
 ---
 
-### ⚙️ How to Run Locally
+### How to Run Locally
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-   cd your-repo-name
+   git clone [https://github.com/ParadoxicalPilgrim/Brand-Intelligence-Engine.git](https://github.com/ParadoxicalPilgrim/Brand-Intelligence-Engine.git)
+   cd Brand-Intelligence-Engine
