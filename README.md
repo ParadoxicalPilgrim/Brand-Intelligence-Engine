@@ -38,6 +38,6 @@ The system operates on a deliberate, multi-stage architecture where each AI agen
 ### How to Run Locally
 
 1. **Clone the repository:**
+   Clone this repository to your local machine and navigate into the folder:
    ```bash
-   git clone [https://github.com/ParadoxicalPilgrim/Brand-Intelligence-Engine.git](https://github.com/ParadoxicalPilgrim/Brand-Intelligence-Engine.git)
    cd Brand-Intelligence-Engine
