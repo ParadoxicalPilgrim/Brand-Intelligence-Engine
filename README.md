@@ -1,4 +1,4 @@
-# 🧠 Brand Intelligence Engine
+# Brand Intelligence Engine
 
 A multi-agent AI pipeline that transforms a raw, unstructured startup idea into a coherent, useful, and launch-ready brand system. Built as a sophisticated intelligence workflow, this engine avoids the "one-prompt trap" by utilizing specialized AI agents for discovery, strategy, critique, design brief generation, and execution planning.
 
